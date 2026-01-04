@@ -1,0 +1,45 @@
+--- Python Standard ---
+
+pycache/
+*.py[cod]
+*$py.class
+
+--- Virtual Environments ---
+
+It's good practice to ignore these if you ever set one up
+
+venv/
+env/
+.env
+
+--- macOS System Files ---
+
+.DS_Store
+
+--- IDE Settings (Optional but recommended) ---
+
+.vscode/
+.idea/
+
+--- Project Specific Output ---
+
+Ignore all downloaded application folders (e.g., App_12345678)
+
+App_*/
+
+Ignore the temporary header dump file used for redirect checking
+
+temp_headers_debug.txt
+
+Ignore input data files (like the CSV you uploaded)
+
+*.csv
+
+Ignore the temporary download staging folder (if used by earlier versions)
+
+Temp_USPTO_Staging/
+USPTO_Temp_Downloads/
+
+Ignore local logs
+
+*.log
